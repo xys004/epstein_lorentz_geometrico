@@ -1,0 +1,10 @@
+/*
+!/.gitignore
+!/derivaciones/
+!/derivaciones/*.py
+!/formal/
+!/formal/*.lean
+!/formal/*.ps1
+!/formal/z3/
+!/formal/z3/*.smt2
+/formal/README.md
