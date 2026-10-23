@@ -191,6 +191,9 @@ def figure_uniform_circular_helix() -> None:
             r"($\beta=0.75$)"
         ),
     )
+    # Coarser horizontal ticks keep the projected x/R and z/R labels distinct.
+    ax.set_xticks(np.linspace(-1.0, 1.0, 5))
+    ax.set_yticks(np.linspace(-1.0, 1.0, 5))
     ax.view_init(elev=22, azim=-54)
     ax.set_box_aspect((1.0, 1.0, 1.35))
     for axis in (ax.xaxis, ax.yaxis, ax.zaxis):
